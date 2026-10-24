@@ -1,0 +1,769 @@
+{
+  "doctors": [
+    {
+      "id": "doc-1",
+      "name": "Dr. Sarah Mitchell",
+      "specialty": "Cardiology",
+      "qualifications": "MD, FACC - Johns Hopkins University",
+      "experienceYears": 14,
+      "consultationFee": 85,
+      "location": "Boston Metro Clinic & Telehealth",
+      "rating": 4.9,
+      "reviewCount": 142,
+      "avatarUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=400",
+      "bio": "Dr. Sarah Mitchell is a board-certified cardiologist specializing in preventive cardiology, hypertension, cardiac risk assessments, and non-invasive cardiovascular care.",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "email": "sarah.mitchell@medconnect.demo",
+      "phone": "+1 (555) 234-8901",
+      "clinicAddress": "Suite 400, Beacon Medical Pavilion, Boston, MA",
+      "verificationStatus": "approved",
+      "isAvailable": true,
+      "verificationDocumentName": "Dr_Mitchell_Board_Certification_Cardiology.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-25",
+          "timeSlots": [
+            "09:00 AM",
+            "10:30 AM",
+            "02:00 PM",
+            "04:30 PM"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "timeSlots": [
+            "09:30 AM",
+            "11:00 AM",
+            "03:00 PM",
+            "05:00 PM"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "timeSlots": [
+            "10:00 AM",
+            "01:30 PM",
+            "03:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-2",
+      "name": "Dr. Marcus Vance",
+      "specialty": "Dermatology",
+      "qualifications": "MD, FAAD - Stanford School of Medicine",
+      "experienceYears": 11,
+      "consultationFee": 75,
+      "location": "San Francisco Bay Medical & Virtual",
+      "rating": 4.8,
+      "reviewCount": 98,
+      "avatarUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400",
+      "bio": "Specialist in inflammatory skin disorders, eczema, adult acne, psoriasis, and digital tele-dermatological evaluations.",
+      "languages": [
+        "English"
+      ],
+      "email": "marcus.vance@medconnect.demo",
+      "phone": "+1 (555) 345-6789",
+      "clinicAddress": "742 Montgomery St, San Francisco, CA",
+      "verificationStatus": "approved",
+      "isAvailable": true,
+      "verificationDocumentName": "Dr_Vance_Dermatology_License_CA.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-25",
+          "timeSlots": [
+            "10:00 AM",
+            "11:30 AM",
+            "01:00 PM",
+            "03:30 PM"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "timeSlots": [
+            "09:00 AM",
+            "02:00 PM",
+            "04:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-3",
+      "name": "Dr. Elena Rostova",
+      "specialty": "Neurology",
+      "qualifications": "MD, PhD - Columbia University Medical Center",
+      "experienceYears": 16,
+      "consultationFee": 110,
+      "location": "New York Presbyterian & Virtual Clinic",
+      "rating": 4.95,
+      "reviewCount": 164,
+      "avatarUrl": "https://images.unsplash.com/photo-1594824813583-0975850e0474?auto=format&fit=crop&q=80&w=400",
+      "bio": "Expert in migraine management, tension headaches, neuropathic pain, and sleep-related neurological disorders.",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "email": "elena.rostova@medconnect.demo",
+      "phone": "+1 (555) 456-7890",
+      "clinicAddress": "1200 York Avenue, New York, NY",
+      "verificationStatus": "approved",
+      "isAvailable": true,
+      "verificationDocumentName": "Dr_Rostova_Neurology_Fellowship_Cert.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-25",
+          "timeSlots": [
+            "08:30 AM",
+            "11:00 AM",
+            "01:30 PM",
+            "05:00 PM"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "timeSlots": [
+            "09:00 AM",
+            "10:30 AM",
+            "02:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-4",
+      "name": "Dr. Rajesh Patel",
+      "specialty": "General Medicine",
+      "qualifications": "MBBS, MD (Internal Medicine) - AIIMS & UK GMC",
+      "experienceYears": 12,
+      "consultationFee": 50,
+      "location": "Chicago Downtown Health Center",
+      "rating": 4.88,
+      "reviewCount": 210,
+      "avatarUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400",
+      "bio": "Primary care physician dedicated to comprehensive wellness, seasonal viral infections, diabetes control, and chronic illness monitoring.",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "email": "rajesh.patel@medconnect.demo",
+      "phone": "+1 (555) 567-8901",
+      "clinicAddress": "300 S Michigan Ave, Chicago, IL",
+      "verificationStatus": "approved",
+      "isAvailable": true,
+      "verificationDocumentName": "Dr_Patel_Internal_Med_Credentials.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-25",
+          "timeSlots": [
+            "08:00 AM",
+            "09:30 AM",
+            "11:00 AM",
+            "02:00 PM",
+            "04:00 PM"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "timeSlots": [
+            "08:30 AM",
+            "10:00 AM",
+            "01:00 PM",
+            "03:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-5",
+      "name": "Dr. Amara Okafor",
+      "specialty": "Pediatrics",
+      "qualifications": "MD, FAAP - Univ of Pennsylvania",
+      "experienceYears": 9,
+      "consultationFee": 65,
+      "location": "Philadelphia Children's Health Hub",
+      "rating": 4.92,
+      "reviewCount": 115,
+      "avatarUrl": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=400",
+      "bio": "Compassionate pediatrician focused on early childhood development, pediatric allergy assessments, seasonal ailments, and parent guidance.",
+      "languages": [
+        "English",
+        "Igbo"
+      ],
+      "email": "amara.okafor@medconnect.demo",
+      "phone": "+1 (555) 678-9012",
+      "clinicAddress": "3401 Civic Center Blvd, Philadelphia, PA",
+      "verificationStatus": "approved",
+      "isAvailable": false,
+      "verificationDocumentName": "Dr_Okafor_Pediatric_Board_Cert.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-26",
+          "timeSlots": [
+            "10:00 AM",
+            "11:30 AM",
+            "02:30 PM"
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "timeSlots": [
+            "09:00 AM",
+            "01:00 PM",
+            "04:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-6",
+      "name": "Dr. David Chen",
+      "specialty": "Orthopedics",
+      "qualifications": "MD, FAAOS - University of Washington",
+      "experienceYears": 15,
+      "consultationFee": 95,
+      "location": "Seattle Sports & Joint Care",
+      "rating": 4.85,
+      "reviewCount": 130,
+      "avatarUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=400",
+      "bio": "Orthopedic specialist focusing on joint pain rehabilitation, sports injury tele-consultations, ergonomic posture correction, and arthritic care.",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "email": "david.chen@medconnect.demo",
+      "phone": "+1 (555) 789-0123",
+      "clinicAddress": "800 5th Ave, Seattle, WA",
+      "verificationStatus": "approved",
+      "isAvailable": true,
+      "verificationDocumentName": "Dr_Chen_Orthopedic_Licensure.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-25",
+          "timeSlots": [
+            "01:00 PM",
+            "02:30 PM",
+            "04:00 PM"
+          ]
+        },
+        {
+          "date": "2026-10-26",
+          "timeSlots": [
+            "10:00 AM",
+            "11:30 AM",
+            "03:00 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-7",
+      "name": "Dr. Claire Dupont",
+      "specialty": "Psychiatry",
+      "qualifications": "MD, DLFAPA - Yale School of Medicine",
+      "experienceYears": 13,
+      "consultationFee": 100,
+      "location": "New Haven Mental Health & Teletherapy",
+      "rating": 4.94,
+      "reviewCount": 178,
+      "avatarUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=400",
+      "bio": "Holistic psychiatrist specialized in adult anxiety, depressive disorders, cognitive stress management, and therapeutic behavioral support.",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "email": "claire.dupont@medconnect.demo",
+      "phone": "+1 (555) 890-1234",
+      "clinicAddress": "205 Church St, New Haven, CT",
+      "verificationStatus": "pending",
+      "isAvailable": true,
+      "verificationDocumentName": "Dr_Dupont_Psychiatry_License_Application.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-26",
+          "timeSlots": [
+            "11:00 AM",
+            "02:00 PM",
+            "04:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-8",
+      "name": "Dr. Liam Gallagher",
+      "specialty": "ENT (Otolaryngology)",
+      "qualifications": "MB BCh BAO, FRCS - Trinity College Dublin",
+      "experienceYears": 8,
+      "consultationFee": 70,
+      "location": "Austin Ear, Nose & Throat Clinic",
+      "rating": 4.79,
+      "reviewCount": 64,
+      "avatarUrl": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&q=80&w=400",
+      "bio": "Specialized in chronic sinusitis, allergic rhinitis, tinnitus evaluations, and non-surgical vocal cord recovery.",
+      "languages": [
+        "English"
+      ],
+      "email": "liam.gallagher@medconnect.demo",
+      "phone": "+1 (555) 901-2345",
+      "clinicAddress": "500 W 2nd St, Austin, TX",
+      "verificationStatus": "pending",
+      "isAvailable": false,
+      "verificationDocumentName": "Dr_Gallagher_GMC_Registration_Docs.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-27",
+          "timeSlots": [
+            "09:00 AM",
+            "11:00 AM",
+            "01:30 PM"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doc-1792779208395",
+      "name": "Dr. Robert King",
+      "specialty": "Orthopedics",
+      "qualifications": "MD, FACC",
+      "experienceYears": 5,
+      "consultationFee": 65,
+      "location": "Chicago, IL",
+      "rating": 5,
+      "reviewCount": 0,
+      "avatarUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400",
+      "bio": "Licensed clinician specializing in Orthopedics.",
+      "languages": [
+        "English"
+      ],
+      "email": "dr.king@medconnect.com",
+      "phone": "+1 (555) 987-6543",
+      "clinicAddress": "123 Medical Center Dr",
+      "verificationStatus": "approved",
+      "isAvailable": true,
+      "verificationDocumentName": "Medical_Board_License_Doc.pdf",
+      "availableSlots": [
+        {
+          "date": "2026-10-24",
+          "timeSlots": [
+            "09:00 AM",
+            "11:00 AM",
+            "02:00 PM",
+            "04:00 PM"
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "timeSlots": [
+            "10:00 AM",
+            "01:30 PM",
+            "03:30 PM"
+          ]
+        }
+      ]
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat-1",
+      "name": "Alex Johnson",
+      "email": "alex.johnson@example.com",
+      "phone": "+1 (555) 432-1098",
+      "dateOfBirth": "1994-06-15",
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "emergencyContact": "Emily Johnson (+1 555-987-6543)",
+      "address": "452 Elm Street, Boston, MA"
+    },
+    {
+      "id": "pat-2",
+      "name": "Samantha Reed",
+      "email": "samantha.reed@example.com",
+      "phone": "+1 (555) 654-3210",
+      "dateOfBirth": "1988-11-22",
+      "gender": "Female",
+      "bloodGroup": "A+",
+      "emergencyContact": "Robert Reed (+1 555-123-4567)",
+      "address": "128 Pinecrest Ave, San Francisco, CA"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-101",
+      "patientId": "pat-1",
+      "patientName": "Alex Johnson",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Mitchell",
+      "doctorSpecialty": "Cardiology",
+      "doctorAvatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=400",
+      "date": "2026-10-25",
+      "time": "10:30 AM",
+      "reason": "Mild heart palpitations after morning coffee and mild exertion",
+      "symptoms": [
+        "Palpitations",
+        "Mild shortness of breath"
+      ],
+      "status": "confirmed",
+      "fee": 85,
+      "consultationType": "video",
+      "createdAt": "2026-10-22T09:15:00Z"
+    },
+    {
+      "id": "apt-102",
+      "patientId": "pat-1",
+      "patientName": "Alex Johnson",
+      "doctorId": "doc-4",
+      "doctorName": "Dr. Rajesh Patel",
+      "doctorSpecialty": "General Medicine",
+      "doctorAvatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=400",
+      "date": "2026-10-18",
+      "time": "02:00 PM",
+      "reason": "Seasonal allergy symptoms, mild dry cough, and fatigue",
+      "symptoms": [
+        "Dry cough",
+        "Fatigue",
+        "Runny nose"
+      ],
+      "status": "completed",
+      "fee": 50,
+      "consultationType": "video",
+      "createdAt": "2026-10-15T14:20:00Z"
+    },
+    {
+      "id": "apt-103",
+      "patientId": "pat-2",
+      "patientName": "Samantha Reed",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Marcus Vance",
+      "doctorSpecialty": "Dermatology",
+      "doctorAvatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400",
+      "date": "2026-10-26",
+      "time": "11:30 AM",
+      "reason": "Persistent itchy erythematous rash on forearm",
+      "symptoms": [
+        "Skin redness",
+        "Itching",
+        "Dry patches"
+      ],
+      "status": "confirmed",
+      "fee": 75,
+      "consultationType": "video",
+      "createdAt": "2026-10-23T11:00:00Z"
+    },
+    {
+      "id": "apt-1792778459197",
+      "patientId": "pat-1",
+      "patientName": "Alex Johnson",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Mitchell",
+      "doctorSpecialty": "Cardiology",
+      "doctorAvatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=400",
+      "date": "2026-10-25",
+      "time": "09:00 AM",
+      "reason": "Routine teleconsultation & health review",
+      "symptoms": [],
+      "status": "confirmed",
+      "fee": 85,
+      "consultationType": "video",
+      "createdAt": "2026-10-23T18:00:59.197Z"
+    }
+  ],
+  "consultations": [
+    {
+      "id": "con-101",
+      "appointmentId": "apt-101",
+      "doctorId": "doc-1",
+      "patientId": "pat-1",
+      "status": "active",
+      "startTime": "2026-10-25T10:30:00Z",
+      "notes": "Patient reports periodic palpitations during work stress. Blood pressure reading provided earlier: 124/82 mmHg.",
+      "chatMessages": [
+        {
+          "id": "msg-1",
+          "sender": "system",
+          "text": "Simulated teleconsultation session initiated. End-to-end encrypted room demo.",
+          "timestamp": "10:30 AM"
+        },
+        {
+          "id": "msg-2",
+          "sender": "doctor",
+          "text": "Hello Alex! Good morning. I can see you clearly. How are the palpitations feeling today?",
+          "timestamp": "10:31 AM"
+        },
+        {
+          "id": "msg-3",
+          "sender": "patient",
+          "text": "Hi Dr. Mitchell! They usually occur in the late morning after my second cup of coffee. No chest pain, just fluttering.",
+          "timestamp": "10:32 AM"
+        },
+        {
+          "id": "msg-4",
+          "sender": "doctor",
+          "text": "Understood. That is a common presentation of sinus arrhythmia or caffeine sensitivity. Let us check your vitals and discuss lifestyle adjustments.",
+          "timestamp": "10:33 AM"
+        }
+      ]
+    },
+    {
+      "id": "con-102",
+      "appointmentId": "apt-102",
+      "doctorId": "doc-4",
+      "patientId": "pat-1",
+      "status": "completed",
+      "startTime": "2026-10-18T14:00:00Z",
+      "endTime": "2026-10-18T14:25:00Z",
+      "notes": "Mild allergic upper respiratory irritation. Advised hydration and antihistamine.",
+      "chatMessages": [
+        {
+          "id": "msg-201",
+          "sender": "doctor",
+          "text": "Consultation concluded. Prescription generated and saved.",
+          "timestamp": "02:25 PM"
+        }
+      ]
+    },
+    {
+      "id": "con-1792778510924",
+      "appointmentId": "apt-1792778459197",
+      "doctorId": "doc-1",
+      "patientId": "pat-1",
+      "status": "active",
+      "startTime": "2026-10-23T18:01:50.924Z",
+      "notes": "Consultation initiated. Reviewing patient reported symptoms.",
+      "chatMessages": [
+        {
+          "id": "msg-1792778510924-1",
+          "sender": "system",
+          "text": "Simulated encrypted consultation room connected. Audio/video preview active.",
+          "timestamp": "11:31 PM"
+        },
+        {
+          "id": "msg-1792778510947-2",
+          "sender": "doctor",
+          "text": "Hello! I am ready to begin our teleconsultation. How can I assist you today?",
+          "timestamp": "11:31 PM"
+        }
+      ]
+    },
+    {
+      "id": "con-1792778510954",
+      "appointmentId": "apt-1792778459197",
+      "doctorId": "doc-1",
+      "patientId": "pat-1",
+      "status": "active",
+      "startTime": "2026-10-23T18:01:50.954Z",
+      "notes": "Consultation initiated. Reviewing patient reported symptoms.",
+      "chatMessages": [
+        {
+          "id": "msg-1792778510954-1",
+          "sender": "system",
+          "text": "Simulated encrypted consultation room connected. Audio/video preview active.",
+          "timestamp": "11:31 PM"
+        },
+        {
+          "id": "msg-1792778510954-2",
+          "sender": "doctor",
+          "text": "Hello! I am ready to begin our teleconsultation. How can I assist you today?",
+          "timestamp": "11:31 PM"
+        },
+        {
+          "id": "msg-1792778542439",
+          "sender": "patient",
+          "text": "Hello doctor, feeling mild flutter today",
+          "timestamp": "11:32 PM"
+        },
+        {
+          "id": "msg-doc-1792778543988",
+          "sender": "doctor",
+          "text": "Based on this, I am going to prescribe a safe first-line medication and advise on follow-up.",
+          "timestamp": "11:32 PM"
+        }
+      ]
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx-102",
+      "consultationId": "con-102",
+      "appointmentId": "apt-102",
+      "patientId": "pat-1",
+      "patientName": "Alex Johnson",
+      "patientAge": 32,
+      "patientGender": "Male",
+      "doctorId": "doc-4",
+      "doctorName": "Dr. Rajesh Patel",
+      "doctorSpecialty": "General Medicine",
+      "doctorLicense": "IL-MED-849201",
+      "clinicName": "Chicago Downtown Health Center",
+      "date": "2026-10-18",
+      "diagnosis": "Seasonal Allergic Rhinitis with Mild Pharyngeal Irritation",
+      "clinicalNotes": "Patient has no history of drug allergies. Chest clear, vitals stable. Advised rest and hydration.",
+      "medicines": [
+        {
+          "name": "Cetirizine Hydrochloride",
+          "dosage": "10 mg",
+          "frequency": "Once daily at bedtime",
+          "duration": "7 days",
+          "instructions": "Take orally with water. May cause mild drowsiness."
+        },
+        {
+          "name": "Fluticasone Propionate Nasal Spray",
+          "dosage": "50 mcg/spray",
+          "frequency": "1 spray in each nostril daily",
+          "duration": "14 days",
+          "instructions": "Shake well before using. Blow nose gently before application."
+        }
+      ],
+      "safetyWarnings": [
+        "Avoid alcohol while taking antihistamines.",
+        "Discontinue and consult if eye swelling or rash worsens."
+      ],
+      "followUpDate": "2026-11-01"
+    },
+    {
+      "id": "rx-1792778818464",
+      "consultationId": "con-demo-session",
+      "appointmentId": "apt-101",
+      "patientId": "pat-1",
+      "patientName": "Alex Johnson",
+      "patientAge": 32,
+      "patientGender": "Male",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Mitchell",
+      "doctorSpecialty": "Cardiology",
+      "doctorLicense": "MED-BOARD-US-99412",
+      "clinicName": "Suite 400, Beacon Medical Pavilion, Boston, MA",
+      "date": "2026-10-23",
+      "diagnosis": "Acute Upper Respiratory Tract Irritation with Pharyngitis",
+      "clinicalNotes": "Patient reported symptoms for 3 days. Vitals normal. Recommend hydration and oral antihistamines.",
+      "medicines": [
+        {
+          "name": "Paracetamol 500mg",
+          "dosage": "500 mg",
+          "frequency": "Every 8 hours if fever > 100°F",
+          "duration": "3 days",
+          "instructions": "Do not exceed 3000mg in 24 hours."
+        }
+      ],
+      "safetyWarnings": [
+        "Take medications strictly as directed on the label.",
+        "Store in a cool, dry place out of reach of children.",
+        "If adverse allergic reactions occur, stop immediately and seek emergency medical care."
+      ],
+      "followUpDate": "2026-10-30"
+    }
+  ],
+  "symptomAssessments": [
+    {
+      "id": "sa-cardio",
+      "category": "Cardiovascular",
+      "keywords": [
+        "chest",
+        "palpitations",
+        "fluttering",
+        "heart",
+        "pulse",
+        "racing heart"
+      ],
+      "summary": "Reported symptoms are consistent with mild cardiac rhythm sensations or caffeine/stress-induced palpitations.",
+      "suggestedSpecialty": "Cardiology",
+      "recommendedAction": "Schedule an elective teleconsultation with a cardiologist for an ECG and lifestyle review.",
+      "urgencyLevel": "Moderate",
+      "matchedDoctorSpecialty": "Cardiology"
+    },
+    {
+      "id": "sa-derma",
+      "category": "Dermatology",
+      "keywords": [
+        "rash",
+        "skin",
+        "itching",
+        "redness",
+        "eczema",
+        "hives",
+        "dry patches"
+      ],
+      "summary": "Reported symptoms suggest localized dermatological irritation, contact dermatitis, or mild eczema.",
+      "suggestedSpecialty": "Dermatology",
+      "recommendedAction": "A teledermatology review can assess photos of the affected area and recommend topical care.",
+      "urgencyLevel": "Low",
+      "matchedDoctorSpecialty": "Dermatology"
+    },
+    {
+      "id": "sa-general",
+      "category": "General Medicine",
+      "keywords": [
+        "fever",
+        "cough",
+        "fatigue",
+        "body ache",
+        "throat",
+        "chills",
+        "weakness",
+        "cold"
+      ],
+      "summary": "Symptoms suggest an acute upper respiratory infection, viral syndrome, or seasonal flu.",
+      "suggestedSpecialty": "General Medicine",
+      "recommendedAction": "Stay hydrated and consult a general physician if fever persists above 101°F or exceeds 3 days.",
+      "urgencyLevel": "Low to Moderate",
+      "matchedDoctorSpecialty": "General Medicine"
+    },
+    {
+      "id": "sa-neuro",
+      "category": "Neurology",
+      "keywords": [
+        "headache",
+        "migraine",
+        "dizziness",
+        "temple pain",
+        "light sensitivity",
+        "throbbing"
+      ],
+      "summary": "Reported symptoms are characteristic of tension headaches, episodic migraine, or ocular fatigue.",
+      "suggestedSpecialty": "Neurology",
+      "recommendedAction": "Track headache frequency and consult a neurologist if accompanied by visual auras or nausea.",
+      "urgencyLevel": "Moderate",
+      "matchedDoctorSpecialty": "Neurology"
+    },
+    {
+      "id": "sa-ortho",
+      "category": "Orthopedics",
+      "keywords": [
+        "joint",
+        "knee",
+        "back pain",
+        "shoulder",
+        "stiffness",
+        "sprain",
+        "bone"
+      ],
+      "summary": "Symptoms point towards musculoskeletal strain, postural fatigue, or mild joint inflammation.",
+      "suggestedSpecialty": "Orthopedics",
+      "recommendedAction": "Rest the affected joint, apply cold/warm compress, and consult an orthopedic clinician.",
+      "urgencyLevel": "Low to Moderate",
+      "matchedDoctorSpecialty": "Orthopedics"
+    },
+    {
+      "id": "sa-ent",
+      "category": "ENT (Otolaryngology)",
+      "keywords": [
+        "ear",
+        "sinus",
+        "nose",
+        "congestion",
+        "throat",
+        "tinnitus",
+        "ringing"
+      ],
+      "summary": "Symptoms correlate with allergic rhinosinusitis, middle ear congestion, or seasonal sinus pressure.",
+      "suggestedSpecialty": "ENT (Otolaryngology)",
+      "recommendedAction": "Steam inhalation and consultation with an ENT specialist for targeted nasal/ear examination.",
+      "urgencyLevel": "Low",
+      "matchedDoctorSpecialty": "ENT (Otolaryngology)"
+    }
+  ]
+}
